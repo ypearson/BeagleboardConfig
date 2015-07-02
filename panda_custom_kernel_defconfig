@@ -10,7 +10,7 @@ BR2_LINUX_KERNEL=y
 BR2_LINUX_KERNEL_CUSTOM_TARBALL=y
 BR2_LINUX_KERNEL_CUSTOM_TARBALL_LOCATION="http://10.10.137.63:8111/guestAuth/repository/download/BeagleBoardBlack_LinuxKernelSource/.lastSuccessful/kernel.tar.gz"
 BR2_LINUX_KERNEL_USE_CUSTOM_CONFIG=y
-BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE="output/build/linux-custom/arch/arm/configs/"
+BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE="output/build/linux-custom/arch/arm/configs/bavery_omap4_mipi_defconfig"
 BR2_LINUX_KERNEL_UIMAGE_LOADADDR="0x80008000"
 BR2_TARGET_ROOTFS_EXT2=y
 # BR2_TARGET_ROOTFS_TAR is not set
